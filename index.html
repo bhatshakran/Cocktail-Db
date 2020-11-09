@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Ruge+Boogie&family=Sintony&display=swap" rel="stylesheet">
+    <title>Cocktail DB</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="holder">
+    <div class="card">
+        <div class="landing">
+            <h5 id="rotate-it">Your Favorite Cocktails Here!!!</h5>
+            <div class="half-1 half"></div>
+            <div class="half-2 half"></div>
+            <button id="btn-let">Lets go!</button>
+        </div>
+        <div class="actual">
+            <div class="searchSide">
+                <form  id="c-details">
+                    <div class="form-group">
+                        <label for="search"> Search your cocktail here:</label>
+                        <input  class="form-control " placeholder="Search by Name"
+                        id="c-search" value="" style="text-align:center">
+                    </div>
+                    <button type="button" class="btn btn-primary" 
+                    id="search-btn">Search <span>Cocktail!</span> </button>
+                </form>
+            </div>
+            <div class="resultSide">
+                <div class="gotIt">
+                <h1>Your Cocktail:</h1>
+                <img src="" alt="" id="c-icon" >
+             <ul id="c-info"  ">
+                 <li class="list-group-item " id="c-name"></li>
+                 
+                 <li class="list-group-item" id="c-cat"></li>
+                 <!-- <li class="list-group-item" id="c-ingred"></li> -->
+                 <li class="list-group-item last" id="c-instr"></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="cocktail.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
